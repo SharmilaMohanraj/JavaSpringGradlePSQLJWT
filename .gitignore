@@ -25,3 +25,9 @@ send_report_email.py
 server.log
 start.log
 test_results.md
+*.log
+.codegraph/
+tests-artifacts/
+.bridge_source_job_id
+.microservices_ports.json
+pr_url.txt

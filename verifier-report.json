@@ -1,0 +1,10 @@
+{
+  "status": "success",
+  "job_id": "44ad32de-7d49-4d04-ad71-1337c55685a0",
+  "title": "Extend the existing Java 17 / Spring Boot 2.7.18 HR application with a recruitment pipeline integrated with the existing",
+  "project_name": "job-44ad32de-7d49-4d04-ad71-1337c55685a0",
+  "loops_run": 2,
+  "report": "Verified checkpoint claims against source: the recruitment enum, JPA entities, validated DTOs, repositories with grouped stage counts, transactional recruitment service, EmployeeService provisioning operation, and all four ROLE_ADMIN-protected /api/recruitment routes are implemented. The service initializes candidates to APPLIED, zero-fills all stage counts, prevents exhausted-vacancy hiring, and makes repeated HIRED updates idempotent. Genuine test evidence exists: JUnit XML reports 8 executed tests with 0 failures/errors/skips, including the six required recruitment service workflow cases, and tests-artifacts/test_results.json records 9 individually observed HTTP checks, all PASS, covering authenticated creation, stage changes including hire, open-list retrieval, and a deliberate 404. The report uses observed status codes and valid PASS/expected-404 outcomes under the testing contract.",
+  "push_message": "6 commit(s) on 'main', HEAD e06016d (latest: 'Stabilize Gradle verification memory'). Not pushed \u2014 approve with: git push https://github.com/SharmilaMohanraj/JavaSpringGradlePSQLJWT main:main",
+  "timestamp": "2026-09-28T11:40:14+0000"
+}
